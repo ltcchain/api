@@ -1,2 +1,2 @@
-LTCCHAIN API and Websocket
+ltcchain.com api and websocket
 ===
