@@ -273,6 +273,13 @@ app.get('/areyoualive', function(req, res) {
     res.send('yes');
 });
 
+if(isDebug){
+    // debug openshift environmental variables
+    app.get('/areyoualive', function(req, res) {
+        res.send(JSON.stringify(process.env));
+    });
+}
+
 // REST API
 app.get('/:op/:id?', function(req, res, next) {
     sync.fiber(function() {
