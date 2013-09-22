@@ -275,7 +275,7 @@ app.get('/areyoualive', function(req, res) {
 
 if(isDebug){
     // debug openshift environmental variables
-    app.get('/areyoualive', function(req, res) {
+    app.get('/debug', function(req, res) {
         res.send(JSON.stringify(process.env));
     });
 }
