@@ -35,7 +35,7 @@ var lastBlockHash,
     executionInterval = 100,
     isRunning = false,
     isReady = false,
-    isDebug = true;
+    isDebug = false;
 
 /*
 Get the latest block and transaction from the firebase account,
