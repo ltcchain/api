@@ -1,2 +1,2 @@
-api
+LTCCHAIN API and Websocket
 ===

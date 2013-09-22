@@ -1,0 +1,16 @@
+{
+  "name": "ws.ltcchain.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "repository": "",
+  "author": "ltcchain.com",
+  "dependencies": {
+    "firebase": "*",
+    "express": "*",
+    "bitcoin": "*",
+    "synchronize": "*"
+  },
+  "main" : "server.js",
+  "private" : true
+}
